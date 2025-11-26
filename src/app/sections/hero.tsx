@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -23,7 +22,7 @@ export default function Hero() {
 
   return (
     <section id="inicio" className="relative w-full h-screen min-h-[700px] flex flex-col items-center justify-center text-center text-white overflow-hidden">
-        <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-900 via-blue-700 to-orange-500 animate-gradient-shift -z-10" />
+        <div className="absolute inset-0 w-full h-full animate-gradient-shift -z-10" />
         <div className="absolute inset-0 w-full h-full bg-slate-900/10 noise-texture -z-10" />
 
         <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in">
@@ -39,7 +38,7 @@ export default function Hero() {
             </div>
 
             <h1 
-                className="font-headline font-extrabold tracking-tighter text-4xl sm:text-6xl md:text-7xl lg:text-8xl max-w-4xl"
+                className="font-headline font-extrabold tracking-tighter text-4xl sm:text-6xl md:text-7xl lg:text-8xl max-w-4xl text-white"
                 style={{ animation: 'fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards', animationDelay: '0.8s', opacity: 0 }}
             >
                 Soluções Completas em<br/>Hidráulica, Elétrica e Irrigação
@@ -84,6 +83,12 @@ export default function Hero() {
             }
             .animate-gradient-shift {
                 background-size: 200% 200%;
+                background-image: linear-gradient(135deg, 
+                  #0A2463 0%,
+                  #1E40AF 45%,
+                  #2563EB 75%,
+                  #F59E0B 100%
+                );
             }
             .drop-shadow-logo {
                 filter: drop-shadow(0 0 2rem rgba(255, 255, 255, 0.2));
