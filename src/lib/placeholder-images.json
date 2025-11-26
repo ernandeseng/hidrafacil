@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-banner",
+      "description": "Hero banner for HidraFácil showing irrigation systems.",
+      "imageUrl": "https://images.unsplash.com/photo-1601763160160-52bb387b53cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoeWRyYXVsaWMlMjBpcnJpZ2F0aW9ufGVufDB8fHx8MTc2NDE5OTU0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hydraulic irrigation"
+    },
+    {
+      "id": "product-irrigation-system",
+      "description": "Rain Bird irrigation system",
+      "imageUrl": "https://images.unsplash.com/photo-1692369584496-3216a88f94c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpcnJpZ2F0aW9uJTIwc3lzdGVtfGVufDB8fHx8MTc2NDE5OTU0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "irrigation system"
+    },
+    {
+      "id": "product-pex-pipe",
+      "description": "PEX gas pipe",
+      "imageUrl": "https://images.unsplash.com/photo-1712683604248-aa816d1669b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaXBlJTIwcm9sbHxlbnwwfHx8fDE3NjQxOTk1NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pipe roll"
+    },
+    {
+      "id": "product-sprinkler",
+      "description": "Garden sprinkler",
+      "imageUrl": "https://images.unsplash.com/photo-1596116015420-7dfb9c55dee5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z2FyZGVuJTIwc3ByaW5rbGVyfGVufDB8fHx8MTc2NDE5OTU0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "garden sprinkler"
+    },
+    {
+      "id": "product-connections",
+      "description": "Hydraulic connections",
+      "imageUrl": "https://images.unsplash.com/photo-1600065621653-2f1de87d0f43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaXBlJTIwZml0dGluZ3N8ZW58MHx8fHwxNzY0MTk5NTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pipe fittings"
+    },
+    {
+      "id": "product-electrical",
+      "description": "Nambei electrical materials",
+      "imageUrl": "https://images.unsplash.com/photo-1699202317894-a071a44129ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZWxlY3RyaWNhbCUyMHN1cHBsaWVzfGVufDB8fHx8MTc2NDEyNTkyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electrical supplies"
+    },
+    {
+      "id": "product-controller",
+      "description": "Irrigation controller",
+      "imageUrl": "https://images.unsplash.com/photo-1548867682-7ecce09e3c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGlnaXRhbCUyMGNvbnRyb2xsZXJ8ZW58MHx8fHwxNzY0MTk5NTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital controller"
+    },
+    {
+      "id": "contact-map",
+      "description": "Location map for HidraFácil",
+      "imageUrl": "https://images.unsplash.com/photo-1717700299581-c2fc3fad4ee8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2NDE3MDE5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
 }
