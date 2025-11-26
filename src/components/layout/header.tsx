@@ -20,7 +20,7 @@ export default function Header() {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="w-full border-b border-border/40 bg-background">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Image
@@ -51,7 +51,7 @@ export default function Header() {
                 (11) 98765-4321
             </a>
             <Button asChild>
-              <Link href="#orcamento">Solicitar Orçamento</Link>
+              <Link href="#contato">Falar com Especialista</Link>
             </Button>
           </div>
 
@@ -96,7 +96,7 @@ export default function Header() {
                         (11) 98765-4321
                     </a>
                     <Button asChild size="lg" className="w-full">
-                        <Link href="#orcamento" onClick={() => setIsSheetOpen(false)}>Solicitar Orçamento</Link>
+                        <Link href="#contato" onClick={() => setIsSheetOpen(false)}>Falar com Especialista</Link>
                     </Button>
                 </div>
               </nav>

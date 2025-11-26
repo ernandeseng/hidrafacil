@@ -7,8 +7,6 @@ import Partners from '@/app/sections/partners';
 import WhyUs from '@/app/sections/why-us';
 import Products from '@/app/sections/products';
 import Contact from '@/app/sections/contact';
-import Quote from '@/app/sections/quote';
-import WhatsappFab from '@/components/whatsapp-fab';
 
 export default function Home() {
   return (
@@ -20,11 +18,9 @@ export default function Home() {
         <Partners />
         <WhyUs />
         <Products />
-        <Quote />
         <Contact />
       </main>
       <Footer />
-      <WhatsappFab />
     </div>
   );
 }
