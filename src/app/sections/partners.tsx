@@ -1,7 +1,25 @@
-
 import Image from 'next/image';
+import { InfiniteSlider } from '@/components/ui/infinite-slider';
 
 const partnerLogos = [
+  {
+    name: 'Rain Bird',
+    logoUrl: 'https://i.imgur.com/XEaWpcD.png',
+    width: 160,
+    height: 60,
+  },
+  {
+    name: 'Amanco',
+    logoUrl: 'https://i.imgur.com/juYXQrQ.png',
+    width: 160,
+    height: 60,
+  },
+  {
+    name: 'Nambei',
+    logoUrl: 'https://i.imgur.com/3tMcAb1.png',
+    width: 160,
+    height: 60,
+  },
   {
     name: 'Rain Bird',
     logoUrl: 'https://i.imgur.com/XEaWpcD.png',
@@ -34,21 +52,23 @@ export default function Partners() {
                 Trabalhamos com os líderes do mercado para garantir a máxima qualidade.
             </p>
         </div>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 items-center justify-items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none">
-          {partnerLogos.map((partner) => (
-            <div
-              key={partner.name}
-              className="flex justify-center"
+        <div className="relative w-full">
+            <InfiniteSlider
+                gap={64}
+                duration={30}
+                className="[mask-image:linear-gradient(to_right,transparent_0,hsl(var(--secondary))_10%,hsl(var(--secondary))_90%,transparent_100%)]"
             >
-              <Image
-                className="max-h-12 w-auto object-contain"
-                src={partner.logoUrl}
-                alt={partner.name}
-                width={partner.width}
-                height={partner.height}
-              />
-            </div>
-          ))}
+                {partnerLogos.map((partner, index) => (
+                    <Image
+                        key={`${partner.name}-${index}`}
+                        className="max-h-12 w-auto object-contain"
+                        src={partner.logoUrl}
+                        alt={partner.name}
+                        width={partner.width}
+                        height={partner.height}
+                    />
+                ))}
+            </InfiniteSlider>
         </div>
       </div>
     </section>
