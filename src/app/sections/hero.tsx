@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -22,11 +21,11 @@ const WhatsAppIcon = () => (
 export default function Hero() {
 
   return (
-    <section id="inicio" className="relative w-full h-screen min-h-[700px] flex flex-col items-center justify-center text-center text-white overflow-hidden">
-        <div className="absolute inset-0 w-full h-full -z-10" style={{
-            backgroundColor: '#F59E0B',
-        }} />
-
+    <section 
+        id="inicio" 
+        className="relative w-full h-screen min-h-[700px] flex flex-col items-center justify-center text-center text-white overflow-hidden"
+        style={{ backgroundColor: '#F59E0B' }}
+    >
         <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in">
             <div className="mb-10" style={{ animation: 'fadeInScale 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards', animationDelay: '0.3s', opacity: 0 }}>
                 <Image
