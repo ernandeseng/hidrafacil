@@ -34,14 +34,14 @@ export default function Partners() {
                 Trabalhamos com os líderes do mercado para garantir a máxima qualidade.
             </p>
         </div>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none">
+        <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 items-center justify-items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none">
           {partnerLogos.map((partner) => (
             <div
               key={partner.name}
               className="flex justify-center"
             >
               <Image
-                className="col-span-2 max-h-12 w-auto object-contain lg:col-span-1 transition-all duration-300 ease-in-out"
+                className="max-h-12 w-auto object-contain"
                 src={partner.logoUrl}
                 alt={partner.name}
                 width={partner.width}
