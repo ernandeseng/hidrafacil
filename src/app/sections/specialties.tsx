@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Droplets, Wrench, Zap } from 'lucide-react';
@@ -47,7 +48,11 @@ export default function Specialties() {
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col justify-between">
                     <p className="text-muted-foreground mb-6">{item.description}</p>
-                    <Button variant="outline">Saiba Mais</Button>
+                    <Button asChild variant="outline">
+                      <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
+                        Saiba Mais
+                      </Link>
+                    </Button>
                 </CardContent>
               </Card>
             );
