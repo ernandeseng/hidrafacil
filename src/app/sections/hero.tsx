@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -61,7 +60,7 @@ export default function Hero() {
                         Solicitar Orçamento
                     </Link>
                 </Button>
-                <Button size="lg" variant="outline" asChild className="glass-button secondary-glow-button">
+                <Button size="lg" variant="outline" asChild className="glass-button bg-green-500/80 hover:bg-green-600 border-green-400/50 text-white">
                     <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
                         <WhatsAppIcon />
                         Falar no WhatsApp
@@ -87,6 +86,7 @@ export default function Hero() {
                 background-image: linear-gradient(135deg, 
                   #0A2463 0%,
                   #1E40AF 45%,
+                  #2563EB 75%,
                   #F59E0B 100%
                 );
             }
