@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section 
         id="inicio" 
-        className="relative w-full h-screen min-h-[700px] flex flex-col items-center justify-center text-center text-white overflow-hidden"
+        className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden"
         style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 35%, #0f3460 70%, #1e3a8a 100%)' }}
     >
         <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in">
@@ -26,7 +26,7 @@ export default function Hero() {
             </div>
 
             <h1 
-                className="font-headline font-extrabold tracking-tighter text-4xl sm:text-6xl md:text-7xl lg:text-8xl max-w-4xl text-white"
+                className="font-headline font-extrabold tracking-tighter text-4xl sm:text-6xl md:text-7xl max-w-4xl text-white"
                 style={{ animation: 'fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards', animationDelay: '0.8s', opacity: 0 }}
             >
                 Soluções Completas em<br/>Hidráulica, Elétrica e Irrigação
