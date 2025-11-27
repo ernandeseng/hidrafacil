@@ -1,6 +1,5 @@
 
 import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
@@ -51,29 +50,23 @@ export default function Products() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {products.map((product) => {
-            const productImage = PlaceHolderImages.find((img) => img.id === product.id);
-            return (
+          {products.map((product, index) => (
               <Card key={product.id} className="overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
-                {productImage && (
                   <div className="aspect-h-3 aspect-w-4 overflow-hidden">
                     <Image
-                      src={productImage.imageUrl}
-                      alt={`Imagem do produto ${product.name}`}
+                      src={`https://picsum.photos/seed/${index + 1}/400/300`}
+                      alt={`Placeholder para ${product.name}`}
                       width={400}
                       height={300}
                       className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
-                      data-ai-hint={productImage.imageHint}
                     />
                   </div>
-                )}
                 <CardContent className="p-6">
                   <Badge variant="secondary" className="mb-2">{product.brand}</Badge>
                   <h3 className="text-lg font-semibold text-foreground">{product.name}</h3>
                 </CardContent>
               </Card>
-            );
-          })}
+            ))}
         </div>
       </div>
     </section>
