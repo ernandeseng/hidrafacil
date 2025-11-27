@@ -13,7 +13,10 @@ export default function Hero() {
         className="relative w-full h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden"
         style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 35%, #0f3460 70%, #1e3a8a 100%)' }}
     >
-        <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in">
+        <div 
+            className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in"
+            style={{ transform: 'translateY(-15%)' }}
+        >
             <div className="mb-10" style={{ animation: 'fadeInScale 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards', animationDelay: '0.3s', opacity: 0 }}>
                 <Image
                     src="https://i.imgur.com/tFzaEIt.png"
