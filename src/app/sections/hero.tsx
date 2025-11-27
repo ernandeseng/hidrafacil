@@ -23,7 +23,7 @@ export default function Hero() {
 
   return (
     <section id="inicio" className="relative w-full h-screen min-h-[700px] flex flex-col items-center justify-center text-center text-white overflow-hidden">
-        <div className="absolute inset-0 w-full h-full animate-gradient-shift -z-20" style={{
+        <div className="absolute inset-0 w-full h-full animate-gradient-shift -z-10" style={{
             backgroundSize: '200% 200%',
             backgroundImage: 'linear-gradient(135deg, #0A2463 0%, #1E40AF 45%, #2563EB 75%, #F59E0B 100%)',
         }} />
@@ -64,7 +64,7 @@ export default function Hero() {
                         Solicitar Orçamento
                     </Link>
                 </Button>
-                <Button size="lg" variant="outline" asChild className="glass-button bg-green-500/80 hover:bg-green-600 border-green-400/50 text-white">
+                <Button size="lg" asChild className="glass-button bg-green-500/80 hover:bg-green-600 border-green-400/50 text-white">
                     <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
                         <WhatsAppIcon />
                         Falar no WhatsApp
@@ -119,14 +119,6 @@ export default function Hero() {
                 box-shadow: 0 0 20px rgba(59, 130, 246, 0.5), 0 12px 40px rgba(0, 0, 0, 0.3);
             }
 
-            .glass-button.secondary-glow-button {
-                border-color: rgba(245, 158, 11, 0.5);
-            }
-
-            .glass-button.secondary-glow-button:hover {
-                box-shadow: 0 0 20px rgba(245, 158, 11, 0.4), 0 12px 40px rgba(0, 0, 0, 0.3);
-            }
-
             @keyframes fadeIn {
                 from { opacity: 0; }
                 to { opacity: 1; }
@@ -157,5 +149,7 @@ export default function Hero() {
     </section>
   );
 }
+
+    
 
     
