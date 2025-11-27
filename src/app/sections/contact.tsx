@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Mail, MapPin, Phone, Clock } from 'lucide-react';
+import { Mail, MapPin, Phone, Clock, MessageSquareHeart } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 
@@ -98,17 +98,20 @@ export default function Contact() {
                 )}
             </div>
             
-            <div className="bg-card p-8 rounded-lg shadow-lg text-center flex flex-col items-center justify-center h-full">
-                <h3 className="text-2xl font-semibold text-card-foreground mb-6">Fale com um Especialista</h3>
-                <p className="text-muted-foreground mb-8 max-w-sm">
-                    Clique no botão abaixo para tirar suas dúvidas e solicitar um orçamento diretamente pelo WhatsApp.
-                </p>
-                <Button size="lg" asChild className="bg-green-500 hover:bg-green-600 text-white">
-                  <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
-                    <WhatsAppIcon />
-                    Iniciar Conversa no WhatsApp
-                  </Link>
-                </Button>
+            <div className="bg-gradient-to-br from-primary/90 to-primary/70 p-8 rounded-2xl shadow-2xl text-center flex flex-col items-center justify-center h-full text-primary-foreground transform hover:scale-[1.02] transition-transform duration-300">
+              <div className="bg-white/20 p-4 rounded-full mb-6">
+                <MessageSquareHeart className="h-10 w-10 text-white" />
+              </div>
+              <h3 className="text-3xl font-bold text-white mb-4 font-headline">Fale com um Especialista</h3>
+              <p className="text-white/80 mb-8 max-w-sm">
+                  Clique no botão abaixo para tirar suas dúvidas e solicitar um orçamento diretamente pelo WhatsApp.
+              </p>
+              <Button size="lg" asChild className="bg-green-500 hover:bg-green-600 text-white shadow-lg transform hover:scale-105 transition-all duration-200 ring-2 ring-white/50">
+                <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
+                  <WhatsAppIcon />
+                  Iniciar Conversa no WhatsApp
+                </Link>
+              </Button>
             </div>
         </div>
       </div>
