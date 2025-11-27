@@ -8,31 +8,37 @@ const products = [
     id: 'product-irrigation-system',
     name: 'Sistemas de Irrigação',
     brand: 'Rain Bird',
+    imageUrl: 'https://i.imgur.com/AXLPZ9X.jpeg',
   },
   {
     id: 'product-pex-pipe',
     name: 'Tubulação PEX Gás',
     brand: 'Amanco',
+    imageUrl: 'https://i.imgur.com/HCPtpaC.jpeg',
   },
   {
     id: 'product-sprinkler',
     name: 'Aspersores e Controladores',
     brand: 'Rain Bird',
+    imageUrl: 'https://i.imgur.com/yjqc4oO.jpeg',
   },
   {
     id: 'product-connections',
     name: 'Conexões Hidráulicas',
     brand: 'Diversas',
+    imageUrl: 'https://i.imgur.com/heIYuY1.png',
   },
   {
     id: 'product-electrical',
     name: 'Materiais Elétricos',
     brand: 'Nambei',
+    imageUrl: 'https://i.imgur.com/vuXbE0J.jpeg',
   },
   {
     id: 'product-controller',
     name: 'Controladores de Irrigação',
     brand: 'Rain Bird',
+    imageUrl: 'https://i.imgur.com/eeYIBYh.jpeg',
   },
 ];
 
@@ -54,8 +60,8 @@ export default function Products() {
               <Card key={product.id} className="overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
                   <div className="aspect-h-3 aspect-w-4 overflow-hidden">
                     <Image
-                      src={`https://picsum.photos/seed/${index + 1}/400/300`}
-                      alt={`Placeholder para ${product.name}`}
+                      src={product.imageUrl}
+                      alt={`Imagem do produto ${product.name}`}
                       width={400}
                       height={300}
                       className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
