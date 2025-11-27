@@ -44,7 +44,7 @@ export default function Hero() {
                 style={{ animation: 'fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards', animationDelay: '1.6s', opacity: 0 }}
             >
                 <Button size="lg" asChild className="bg-amber-400 text-primary-foreground hover:bg-amber-500 text-lg px-10 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                    <Link href="#contato">
+                    <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
                         Solicitar Orçamento
                     </Link>
                 </Button>
