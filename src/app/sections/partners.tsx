@@ -41,7 +41,7 @@ export default function Partners() {
               className="flex justify-center"
             >
               <Image
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 filter grayscale hover:grayscale-0 transition-all duration-300 ease-in-out"
+                className="col-span-2 max-h-12 w-auto object-contain lg:col-span-1 transition-all duration-300 ease-in-out"
                 src={partner.logoUrl}
                 alt={partner.name}
                 width={partner.width}
