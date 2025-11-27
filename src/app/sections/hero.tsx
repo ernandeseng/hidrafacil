@@ -18,8 +18,8 @@ export default function Hero() {
                 <Image
                     src="https://i.imgur.com/tFzaEIt.png"
                     alt="HidraFácil Logo"
-                    width={280}
-                    height={70}
+                    width={392}
+                    height={98}
                     priority
                     className="drop-shadow-logo"
                 />
