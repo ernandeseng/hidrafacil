@@ -23,7 +23,10 @@ export default function Hero() {
   return (
     <section id="inicio" className="relative w-full h-screen min-h-[700px] flex flex-col items-center justify-center text-center text-white overflow-hidden">
         <div className="absolute inset-0 w-full h-full bg-slate-900/10 noise-texture -z-10" />
-        <div className="absolute inset-0 w-full h-full animate-gradient-shift -z-20" />
+        <div className="absolute inset-0 w-full h-full animate-gradient-shift -z-20" style={{
+            backgroundSize: '200% 200%',
+            backgroundImage: 'linear-gradient(135deg, #0A2463 0%, #1E40AF 45%, #2563EB 75%, #F59E0B 100%)',
+        }} />
 
         <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in">
             <div className="mb-10" style={{ animation: 'fadeInScale 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards', animationDelay: '0.3s', opacity: 0 }}>
@@ -80,15 +83,6 @@ export default function Hero() {
             .noise-texture {
                 background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
                 opacity: 0.05;
-            }
-            .animate-gradient-shift {
-                background-size: 200% 200%;
-                background-image: linear-gradient(135deg, 
-                  #0A2463 0%,
-                  #1E40AF 45%,
-                  #2563EB 75%,
-                  #F59E0B 100%
-                );
             }
             .drop-shadow-logo {
                 filter: drop-shadow(0 0 2rem rgba(255, 255, 255, 0.2));
