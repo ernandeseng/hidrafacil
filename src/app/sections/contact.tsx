@@ -1,8 +1,6 @@
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { Mail, MapPin, Phone, Clock, MessageSquareHeart } from 'lucide-react';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 
 const WhatsAppIcon = () => (
@@ -45,8 +43,6 @@ const contactDetails = [
 ];
 
 export default function Contact() {
-  const mapImage = PlaceHolderImages.find((img) => img.id === 'contact-map');
-
   return (
     <section id="contato" className="py-16 sm:py-24 bg-secondary">
       <div className="container">
@@ -84,18 +80,17 @@ export default function Contact() {
                         })}
                     </ul>
                 </div>
-                {mapImage && (
-                    <div className="aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
-                        <Image
-                            src={mapImage.imageUrl}
-                            alt="Mapa de localização da HidraFácil"
-                            width={600}
-                            height={450}
-                            className="w-full h-full object-cover"
-                            data-ai-hint={mapImage.imageHint}
-                        />
-                    </div>
-                )}
+                <div className="aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.185533139331!2d-46.65653908447573!3d-23.56143998468735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0x242459c478f6c6a3!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1626456345678"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen={true}
+                    loading="lazy"
+                    title="Mapa de localização da HidraFácil"
+                  ></iframe>
+                </div>
             </div>
             
             <div className="bg-gradient-to-br from-primary/90 to-primary/70 p-8 rounded-2xl shadow-2xl text-center flex flex-col items-center justify-center h-full text-primary-foreground transform hover:scale-[1.02] transition-transform duration-300">
