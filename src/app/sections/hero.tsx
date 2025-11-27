@@ -23,11 +23,9 @@ export default function Hero() {
 
   return (
     <section id="inicio" className="relative w-full h-screen min-h-[700px] flex flex-col items-center justify-center text-center text-white overflow-hidden">
-        <div className="absolute inset-0 w-full h-full animate-gradient-shift -z-10" style={{
-            backgroundSize: '200% 200%',
-            backgroundImage: 'linear-gradient(135deg, #0A2463 0%, #1E40AF 45%, #2563EB 75%, #F59E0B 100%)',
+        <div className="absolute inset-0 w-full h-full -z-10" style={{
+            backgroundColor: '#F59E0B',
         }} />
-        <div className="absolute inset-0 w-full h-full bg-black/10 noise-texture -z-10" />
 
         <div className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in">
             <div className="mb-10" style={{ animation: 'fadeInScale 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards', animationDelay: '0.3s', opacity: 0 }}>
@@ -149,7 +147,3 @@ export default function Hero() {
     </section>
   );
 }
-
-    
-
-    
