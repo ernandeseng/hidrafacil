@@ -84,7 +84,7 @@ export default function Hero() {
                 opacity: 0.05;
             }
             .drop-shadow-logo {
-                filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.15));
+                filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.3));
             }
             h1, p {
                 text-shadow: 0 2px 10px rgba(0,0,0,0.25);
