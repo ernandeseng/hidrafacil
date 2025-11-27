@@ -48,7 +48,7 @@ export default function Products() {
       <div className="container">
         <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-                Principais Produtos
+                Nossa linha de produtos
             </h2>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
                 Um estoque completo para atender todas as suas necessidades.
