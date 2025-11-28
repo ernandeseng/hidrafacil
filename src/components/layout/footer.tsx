@@ -54,7 +54,7 @@ export default function Footer() {
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>Rua Exemplo, 123, Cidade, Estado</p>
               <p>Email: contato@hidrafacil.com</p>
-              <p>Telefone: (11) 98765-4321</p>
+              <p>Telefone: (11) 98465-8469</p>
             </div>
           </div>
           <div>

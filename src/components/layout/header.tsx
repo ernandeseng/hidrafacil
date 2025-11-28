@@ -46,9 +46,9 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-             <a href="tel:+5511987654321" className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary">
+             <a href="tel:+5511984658469" className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary">
                 <Phone className="h-4 w-4" />
-                (11) 98765-4321
+                (11) 98465-8469
             </a>
             <Button asChild>
               <Link href="#contato">Falar com Especialista</Link>
@@ -91,9 +91,9 @@ export default function Header() {
                   </SheetClose>
                 ))}
                 <div className="border-t pt-5 space-y-4">
-                    <a href="tel:+5511987654321" className="flex items-center gap-2 text-lg font-medium text-foreground hover:text-primary">
+                    <a href="tel:+5511984658469" className="flex items-center gap-2 text-lg font-medium text-foreground hover:text-primary">
                         <Phone className="h-5 w-5" />
-                        (11) 98765-4321
+                        (11) 98465-8469
                     </a>
                     <Button asChild size="lg" className="w-full">
                         <Link href="#contato" onClick={() => setIsSheetOpen(false)}>Falar com Especialista</Link>

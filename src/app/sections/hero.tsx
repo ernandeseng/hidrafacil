@@ -15,14 +15,14 @@ export default function Hero() {
     >
         <div 
             className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in"
-            style={{ transform: 'translateY(-15%)' }}
+            style={{ transform: 'translateY(-30%)' }}
         >
             <div className="mb-10" style={{ animation: 'fadeInScale 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards', animationDelay: '0.3s', opacity: 0 }}>
                 <Image
                     src="https://i.imgur.com/tFzaEIt.png"
                     alt="HidraFácil Logo"
-                    width={392}
-                    height={98}
+                    width={549}
+                    height={137}
                     priority
                     className="drop-shadow-logo"
                 />
@@ -47,7 +47,7 @@ export default function Hero() {
                 style={{ animation: 'fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards', animationDelay: '1.6s', opacity: 0 }}
             >
                 <Button size="lg" asChild className="bg-amber-400 text-primary-foreground hover:bg-amber-500 text-lg px-10 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                    <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://wa.me/5511984658469" target="_blank" rel="noopener noreferrer">
                         Solicitar Orçamento
                     </Link>
                 </Button>

@@ -27,7 +27,7 @@ export default function WhatsappFab() {
       className="fixed bottom-6 right-6 h-16 w-16 rounded-full shadow-lg z-40 bg-green-500 hover:bg-green-600 text-white"
       aria-label="Fale Conosco no WhatsApp"
     >
-      <Link href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">
+      <Link href="https://wa.me/5511984658469" target="_blank" rel="noopener noreferrer">
         <WhatsAppIcon />
       </Link>
     </Button>
