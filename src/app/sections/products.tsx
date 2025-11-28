@@ -51,12 +51,6 @@ const categories = [
         imageUrl: 'https://i.imgur.com/HCPtpaC.jpeg',
       },
       {
-        id: 'product-connections',
-        name: 'Conexões Hidráulicas',
-        brand: 'Diversas',
-        imageUrl: 'https://i.imgur.com/heIYuY1.png',
-      },
-      {
         id: 'product-pvc-connection-1',
         name: 'Conexão PVC',
         brand: 'Diversas',
