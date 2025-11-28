@@ -66,6 +66,18 @@ const categories = [
         brand: 'Diversas',
         imageUrl: 'https://i.imgur.com/k9Hb02H.jpeg',
       },
+      {
+        id: 'product-pvc-connection-5',
+        name: 'Conexão PVC',
+        brand: 'Diversas',
+        imageUrl: 'https://i.imgur.com/TIr6xUf.jpeg',
+      },
+      {
+        id: 'product-pvc-connection-6',
+        name: 'Conexão PVC',
+        brand: 'Diversas',
+        imageUrl: 'https://i.imgur.com/XAP1796.jpeg',
+      },
     ],
   },
   {
