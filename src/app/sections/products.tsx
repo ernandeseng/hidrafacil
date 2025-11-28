@@ -29,13 +29,13 @@ const categories = [
       },
       {
         id: 'product-irrigation-valve',
-        name: 'Válvula de Irrigação',
+        name: 'Toda linha de aspersores Rain Bird',
         brand: 'Rain Bird',
         imageUrl: 'https://i.imgur.com/pnsNRcV.jpeg',
       },
       {
         id: 'product-drip-system',
-        name: 'Sistema de Gotejamento',
+        name: 'Temporizadores',
         brand: 'Rain Bird',
         imageUrl: 'https://i.imgur.com/bDkYtiK.jpeg',
       },
