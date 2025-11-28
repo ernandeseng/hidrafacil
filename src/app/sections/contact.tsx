@@ -28,8 +28,8 @@ const contactDetails = [
   },
   {
     icon: Phone,
-    text: '(11) 98465-8469',
-    href: 'tel:+5511984658469',
+    text: '(11) 96067-2876',
+    href: 'tel:+5511960672876',
   },
   {
     icon: Mail,
@@ -102,7 +102,7 @@ export default function Contact() {
                   Clique no botão abaixo para tirar suas dúvidas e solicitar um orçamento diretamente pelo WhatsApp.
               </p>
               <Button size="lg" asChild className="bg-green-500 hover:bg-green-600 text-white shadow-lg transform hover:scale-105 transition-all duration-200 ring-2 ring-white/50">
-                <Link href="https://wa.me/5511984658469" target="_blank" rel="noopener noreferrer">
+                <Link href="https://wa.me/5511960672876" target="_blank" rel="noopener noreferrer">
                   <WhatsAppIcon />
                   Iniciar Conversa no WhatsApp
                 </Link>

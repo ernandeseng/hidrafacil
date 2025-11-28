@@ -105,7 +105,7 @@ export default function Products() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 {category.products.map((product) => {
                   const whatsappMessage = encodeURIComponent(`Olá, preciso de mais informações sobre o ${product.name}`);
-                  const whatsappLink = `https://wa.me/5511984658469?text=${whatsappMessage}`;
+                  const whatsappLink = `https://wa.me/5511960672876?text=${whatsappMessage}`;
                   return (
                     <Card
                       key={product.id}
