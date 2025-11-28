@@ -10,34 +10,10 @@ const categories = [
     name: 'Irrigação',
     products: [
       {
-        id: 'product-irrigation-system',
-        name: 'Sistemas de Irrigação',
-        brand: 'Rain Bird',
-        imageUrl: 'https://i.imgur.com/AXLPZ9X.jpeg',
-      },
-      {
-        id: 'product-sprinkler',
-        name: 'Aspersores',
-        brand: 'Rain Bird',
-        imageUrl: 'https://i.imgur.com/yjqc4oO.jpeg',
-      },
-      {
-        id: 'product-controller',
-        name: 'Controladores de Irrigação',
-        brand: 'Rain Bird',
-        imageUrl: 'https://i.imgur.com/eeYIBYh.jpeg',
-      },
-      {
         id: 'product-irrigation-valve',
         name: 'Toda linha de aspersores Rain Bird',
         brand: 'Rain Bird',
         imageUrl: 'https://i.imgur.com/pnsNRcV.jpeg',
-      },
-      {
-        id: 'product-drip-system',
-        name: 'Temporizadores',
-        brand: 'Rain Bird',
-        imageUrl: 'https://i.imgur.com/bDkYtiK.jpeg',
       },
     ],
   },
