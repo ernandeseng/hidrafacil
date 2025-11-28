@@ -92,7 +92,7 @@ const categories = [
       },
       {
         id: 'product-hydraulic-pipes-connections',
-        name: 'Tubos e conexões hidráulicas',
+        name: 'Tubos e conexões de cobre',
         brand: 'Diversas',
         imageUrl: 'https://i.imgur.com/lcprjlv.jpeg',
       },
