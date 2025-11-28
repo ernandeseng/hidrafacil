@@ -91,7 +91,7 @@ const categories = [
         imageUrl: 'https://i.imgur.com/XAP1796.jpeg',
       },
       {
-        id: 'product-hydraulic-pipes-connections',
+        id: 'product-copper-pipes-connections',
         name: 'Tubos e conexões de cobre',
         brand: 'Diversas',
         imageUrl: 'https://i.imgur.com/lcprjlv.jpeg',
@@ -136,12 +136,12 @@ export default function Products() {
                     key={product.id}
                     className="overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
                   >
-                    <div className="aspect-h-3 aspect-w-4 overflow-hidden">
+                    <div className="aspect-square overflow-hidden">
                       <Image
                         src={product.imageUrl}
                         alt={`Imagem do produto ${product.name}`}
                         width={400}
-                        height={300}
+                        height={400}
                         className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
