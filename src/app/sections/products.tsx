@@ -90,6 +90,12 @@ const categories = [
         brand: 'Diversas',
         imageUrl: 'https://i.imgur.com/XAP1796.jpeg',
       },
+      {
+        id: 'product-hydraulic-pipes-connections',
+        name: 'Tubos e conexões hidráulicas',
+        brand: 'Diversas',
+        imageUrl: 'https://i.imgur.com/lcprjlv.jpeg',
+      },
     ],
   },
   {
