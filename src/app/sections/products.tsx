@@ -42,6 +42,30 @@ const categories = [
         brand: 'Diversas',
         imageUrl: 'https://i.imgur.com/heIYuY1.png',
       },
+      {
+        id: 'product-pvc-connection-1',
+        name: 'Conexão PVC',
+        brand: 'Diversas',
+        imageUrl: 'https://i.imgur.com/CLuFoAd.jpeg',
+      },
+      {
+        id: 'product-pvc-connection-2',
+        name: 'Conexão PVC',
+        brand: 'Diversas',
+        imageUrl: 'https://i.imgur.com/RSJm0Jy.jpeg',
+      },
+      {
+        id: 'product-pvc-connection-3',
+        name: 'Conexão PVC',
+        brand: 'Diversas',
+        imageUrl: 'https://i.imgur.com/DSyWsI4.jpeg',
+      },
+      {
+        id: 'product-pvc-connection-4',
+        name: 'Conexão PVC',
+        brand: 'Diversas',
+        imageUrl: 'https://i.imgur.com/k9Hb02H.jpeg',
+      },
     ],
   },
   {
@@ -76,7 +100,7 @@ export default function Products() {
               <h3 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl font-headline mb-8 border-l-4 border-primary pl-4">
                 {category.name}
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 {category.products.map((product) => (
                   <Card
                     key={product.id}
