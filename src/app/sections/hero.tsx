@@ -14,10 +14,10 @@ export default function Hero() {
         style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 35%, #0f3460 70%, #1e3a8a 100%)' }}
     >
         <div 
-            className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full animate-fade-in"
+            className="relative z-10 flex flex-col items-center justify-center p-4 sm:p-6 w-full"
             style={{ transform: 'translateY(-30%)' }}
         >
-            <div className="mb-10" style={{ animation: 'fadeInScale 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards', animationDelay: '0.3s', opacity: 0 }}>
+            <div className="mb-10">
                 <Image
                     src="https://i.imgur.com/tFzaEIt.png"
                     alt="HidraFácil Logo"
@@ -30,21 +30,18 @@ export default function Hero() {
 
             <h1 
                 className="font-headline font-extrabold tracking-tighter text-4xl sm:text-6xl md:text-7xl max-w-4xl text-white"
-                style={{ animation: 'fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards', animationDelay: '0.8s', opacity: 0 }}
             >
                 Soluções Completas em<br/>Hidráulica, Elétrica e Irrigação
             </h1>
 
             <p 
                 className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-white/90"
-                style={{ animation: 'fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards', animationDelay: '1.2s', opacity: 0 }}
             >
                 Qualidade profissional com as melhores marcas do mercado.<br/>Parceiros oficiais Rain Bird, Amanco e Nambei.
             </p>
 
             <div 
                 className="mt-12 flex flex-col sm:flex-row justify-center gap-4"
-                style={{ animation: 'fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards', animationDelay: '1.6s', opacity: 0 }}
             >
                 <Button size="lg" asChild className="bg-amber-400 text-primary-foreground hover:bg-amber-500 text-lg px-10 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
                     <Link href="https://wa.me/5511984658469" target="_blank" rel="noopener noreferrer">
