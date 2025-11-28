@@ -1,7 +1,9 @@
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 
 const categories = [
   {
@@ -131,28 +133,37 @@ export default function Products() {
                 {category.name}
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                {category.products.map((product) => (
-                  <Card
-                    key={product.id}
-                    className="overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
-                  >
-                    <div className="aspect-square overflow-hidden">
-                      <Image
-                        src={product.imageUrl}
-                        alt={`Imagem do produto ${product.name}`}
-                        width={400}
-                        height={400}
-                        className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
-                      />
-                    </div>
-                    <CardContent className="p-6">
-                      <Badge variant="secondary" className="mb-2">
-                        {product.brand}
-                      </Badge>
-                      <h3 className="text-lg font-semibold text-foreground">{product.name}</h3>
-                    </CardContent>
-                  </Card>
-                ))}
+                {category.products.map((product) => {
+                  const whatsappMessage = encodeURIComponent(`Olá, preciso de mais informações sobre o ${product.name}`);
+                  const whatsappLink = `https://wa.me/5511984658469?text=${whatsappMessage}`;
+                  return (
+                    <Card
+                      key={product.id}
+                      className="overflow-hidden group flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+                    >
+                      <div className="aspect-square overflow-hidden">
+                        <Image
+                          src={product.imageUrl}
+                          alt={`Imagem do produto ${product.name}`}
+                          width={400}
+                          height={400}
+                          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                      <CardContent className="p-6 flex flex-col flex-grow">
+                        <Badge variant="secondary" className="mb-2 w-fit">
+                          {product.brand}
+                        </Badge>
+                        <h3 className="text-lg font-semibold text-foreground flex-grow">{product.name}</h3>
+                        <Button asChild className="mt-4 w-full">
+                          <Link href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                            Saiba mais
+                          </Link>
+                        </Button>
+                      </CardContent>
+                    </Card>
+                  );
+                })}
               </div>
             </div>
           ))}
