@@ -25,6 +25,18 @@ const categories = [
         brand: 'Rain Bird',
         imageUrl: 'https://i.imgur.com/eeYIBYh.jpeg',
       },
+      {
+        id: 'product-irrigation-valve',
+        name: 'Válvula de Irrigação',
+        brand: 'Rain Bird',
+        imageUrl: 'https://i.imgur.com/pnsNRcV.jpeg',
+      },
+      {
+        id: 'product-drip-system',
+        name: 'Sistema de Gotejamento',
+        brand: 'Rain Bird',
+        imageUrl: 'https://i.imgur.com/bDkYtiK.jpeg',
+      },
     ],
   },
   {
