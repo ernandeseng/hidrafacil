@@ -49,7 +49,7 @@ export default function Specialties() {
                 <CardContent className="flex-grow flex flex-col justify-between">
                     <p className="text-muted-foreground mb-6">{item.description}</p>
                     <Button asChild variant="outline">
-                      <Link href="https://wa.me/5511960672876" target="_blank" rel="noopener noreferrer">
+                      <Link href="https://wa.me/5511984658469" target="_blank" rel="noopener noreferrer">
                         Saiba Mais
                       </Link>
                     </Button>
