@@ -55,7 +55,6 @@ export default function Footer() {
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>Rua Nossa Sra. Aparecida, 200 - Atibaia, SP</p>
               <p>Email: contato@hidrafacil.com</p>
-              <p>Telefone: (11) 96067-2876</p>
             </div>
           </div>
           <div>
