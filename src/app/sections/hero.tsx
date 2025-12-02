@@ -45,7 +45,7 @@ export default function Hero() {
                 className="mt-12 flex flex-col sm:flex-row justify-center gap-4"
             >
                 <Button size="lg" asChild className="bg-amber-400 text-primary-foreground hover:bg-amber-500 text-lg px-10 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                    <Link href="https://wa.me/5511960672876" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://wa.me/5511984658469" target="_blank" rel="noopener noreferrer">
                         Solicitar Orçamento
                     </Link>
                 </Button>
