@@ -54,7 +54,7 @@ export default function Footer() {
             <h3 className="font-semibold text-foreground mb-4">Contato</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>Rua Nossa Sra. Aparecida, 200 - Atibaia, SP</p>
-              <p>Email: contato@hidrafacil.com</p>
+              <p>Email: hidrafacil.2017@gmail.com</p>
               <p>Telefone: (11) 98465-8469</p>
             </div>
           </div>

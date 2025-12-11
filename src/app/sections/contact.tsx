@@ -33,8 +33,8 @@ const contactDetails = [
   },
   {
     icon: Mail,
-    text: 'contato@hidrafacil.com',
-    href: 'mailto:contato@hidrafacil.com',
+    text: 'hidrafacil.2017@gmail.com',
+    href: 'mailto:hidrafacil.2017@gmail.com',
   },
   {
     icon: Clock,
@@ -82,7 +82,7 @@ export default function Contact() {
                 </div>
                 <div className="aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.61273934789!2d-46.55137832479017!3d-23.111456178883584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cecbe684358535%3A0x289775f3a0429f45!2sR.%20Nossa%20Sra.%20Aparecida%2C%20200%20-%20Centro%2C%20Atibaia%20-%20SP%2C%2012940-240!5e0!3m2!1spt-BR!2sbr!4v1720638531737!5m2!1spt-BR!2sbr"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.61273934789!2d-46.55137832479017!3d-23.111456178883584!2m3!1f0!2f0!3f0!3m2!i1024!2i768!4f13.1!3m3!1m2!1s0x94cecbe684358535%3A0x289775f3a0429f45!2sR.%20Nossa%20Sra.%20Aparecida%2C%20200%20-%20Centro%2C%20Atibaia%20-%20SP%2C%2012940-240!5e0!3m2!1spt-BR!2sbr!4v1720638531737!5m2!1spt-BR!2sbr"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
