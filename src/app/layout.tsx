@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   description:
     'Sua loja especializada em materiais hidráulicos, elétricos e produtos para irrigação. Soluções completas com atendimento especializado.',
   keywords: ['hidráulica', 'elétrica', 'irrigação', 'Rain Bird', 'Amanco', 'Nambei', 'materiais de construção'],
+  verification: {
+    google: '1JsfeI8yiiic5vzk8yfMiPsCvVWCARcdVcKR3h1KsPA',
+  },
 };
 
 export default function RootLayout({
